@@ -12,11 +12,16 @@ body {
 
 .hero, footer {
 	background-color: #1F2937;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
 }
 
-.hero a {
+.hero a,
+.subtext {
 	color: #E5E7EB;
 	font-size: 18px;
+	font-weight: normal;
 }
 
 .logo {
@@ -26,9 +31,10 @@ body {
 
 header {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
-	padding: 20px;
+	padding: 20px 0;
+	width: 70%;
 }
 
 ul {
@@ -44,4 +50,39 @@ a {
 header ul {
 	display: flex;
 	gap: 20px;
+}
+
+.hero h1 {
+	font-size: 48px;
+	font-weight: bolder;
+	color: #F9FAF8;
+	margin: 0;
+}
+
+.hero-main {
+	display: flex;
+	justify-content: space-between;
+	gap: 50px;
+	padding: 80px 0 100px;
+	width: 70%;
+	color: #F9FAF8;
+	font-weight: bold;
+}
+
+.heroImg {
+	background-color: #6d747d;
+	width: 500px;
+	height: 250px;
+	flex-shrink: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.hero-main button {
+	background-color: #3882f6;
+	padding: 10px 30px;
+	border-style: hidden;
+	border-radius: 10px;
+	margin-top: 10px;
 }
