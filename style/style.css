@@ -80,7 +80,7 @@ header ul {
 	justify-content: center;
 }
 
-.hero-main button {
+button {
 	background-color: #3882f6;
 	padding: 10px 30px;
 	border-style: hidden;
@@ -149,4 +149,33 @@ header ul {
 	margin-left: auto;
 	font-weight: bold;
 	font-size: 24px;
+}
+
+.ctaWrapper {
+	padding: 75px 0;
+	display: flex;
+	justify-content: center;
+}
+
+.cta {
+	background-color: #3882f6;
+	border-radius: 10px;
+	width: 70%;
+	padding: 40px 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	gap: 50px;
+	color: #e5e7eb;
+}
+
+.cta button {
+	border-style: solid;
+	border-color: #E5E7EB;
+	color: #e5e7eb;
+	margin: 0;
+}
+
+h3 {
+	margin: 0;
 }
